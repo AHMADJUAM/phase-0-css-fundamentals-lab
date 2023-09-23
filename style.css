@@ -3,3 +3,48 @@ body {
   height: 100%;
   margin: 0;
 }
+header {
+  text-align: center;
+
+}
+
+#featured-property figure {
+  text-align: center; 
+}
+
+section{
+  text-align: center;
+}
+
+header nav a {
+  padding: 10px; 
+  background-color: grey; 
+  text-decoration: none; 
+  margin: 0 5px; 
+}
+
+#featured-property p{
+  width: 800px; 
+  margin: 20px 0; 
+}
+
+#featured-property {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center; 
+}
+
+#details {
+  overflow: hidden; 
+}
+
+#details div {
+  float: left;
+  width: 25%; 
+  background-color: red; 
+  text-align: center; 
+  padding: 20px; 
+  box-sizing: border-box; 
+}
